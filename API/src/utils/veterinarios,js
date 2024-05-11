@@ -1,0 +1,11 @@
+const veterinarios = [
+    {
+      idVeterinario: 1,
+      nombre: "Rick Sanchez",
+      direccion: "cl 20 #112",
+      telefono: 12938304,
+      cc: 1001111223,
+    },
+  ];
+  
+  module.exports = veterinarios;
