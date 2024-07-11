@@ -1,58 +1,23 @@
+/* Estilos para .App */
 .App {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  align-items:flex-start;
-  height: 100vh;
-}
-.Fondo{
-  width: 75%;
-  height: auto;
-}
-.Imagen{
+  /* Asegurar que ocupe toda la pantalla */
   width: 100%;
 }
-.login{
-  display: flex;
-  width: 25%;
-  height: auto;
-  align-content: center;
 
-}
-.content{
+/* Estilos para NavBar */
+.nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  align-content: center;
-  background-color: antiquewhite;
-  justify-content: center;
-}
-.Titulo{
-  align-self: center;
-  background-color: rgb(233, 214, 244);
-  width: 200px;
-  height: 150px;
-  border-radius: 50%;
-  color: beige;
-  font-style:initial;
-  align-content: center;
-  padding: 20px;
-  }
-
-
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
 }
 
 
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

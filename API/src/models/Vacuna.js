@@ -6,6 +6,14 @@ module.exports = (sequelize) => {
       type: DataTypes.INTEGER,
       primaryKey: true,
     },
+    idMascota: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      references: {
+        model: "mascota",
+        key: "idMascota"
+      }
+    },
     vacuna: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -13,14 +21,6 @@ module.exports = (sequelize) => {
     fechaRegistro: {
       type: DataTypes.DATEONLY,
       allowNull: false,
-    },
-    idMascota:{
-      type: DataTypes.INTEGER,
-      allowNull: false,
-      references:{
-        model:"mascota",
-        key:"idMascota"
-      }
     }
   });
 

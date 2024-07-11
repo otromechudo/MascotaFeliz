@@ -1,0 +1,37 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #f5dce5;
+  color: rgb(149, 53, 2);
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  border-radius: 15px;
+}
+
+.Titulo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.bttn button {
+  padding: 10px 20px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  color: rgb(149, 53, 2);
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.bttn button:hover {
+  background-color: rgba(247, 79, 129, 0.1);
+}
